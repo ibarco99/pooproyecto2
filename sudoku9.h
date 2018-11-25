@@ -1,7 +1,3 @@
-//
-// Created by Barco on 11/16/18.
-//
-
 #ifndef PROYECTO2_SUDOKU9_H
 #define PROYECTO2_SUDOKU9_H
 
