@@ -1,7 +1,4 @@
-
-
 #include "menu.h"
-
 
 int menu::menusudoku() {
     int b=0;
@@ -22,13 +19,13 @@ int menu::menuu() {
         "Precione 2 para dibujar el tablero"<<endl<<
         "Precione 3 para salir"<<endl;
     cin>>a;
+    cout<<endl;
     if (a==1){
         return menusudoku();
     } else if (a==2){
         menudibujar();
         menu::menuu();
-    }
-    else if(a==3){
+    } else if(a==3){
         return 0;
     }
     else
