@@ -4,15 +4,15 @@
 
 
 int menu::menusudoku() {
-    int a=0;
-    cout<<"Precione 1 para jugar en el tebletro tradicional"<<endl<<
-        "Precione 2 para jugar en tablero de 2*2"<<endl;
-    cin>>a;
-    if (a==1){
+    int b=0;
+    cout<<"Presione 1 para jugar en el tabletro tradicional"<<endl<<
+        "Presione 2 para jugar en tablero de 2*2"<<endl;
+    cin>>b;
+    if (b==1){
         return 1;
-    } else if(a==2){
+    } else if(b==2){
         return 2;
-    } else
+    } else if(b>2)
         menu::menusudoku();
 }
 
