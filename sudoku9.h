@@ -28,3 +28,4 @@ public:
     bool buscar5(int y, int z, int M[9][9]);
     bool buscar6(int x, int z, int M[9]);
 };
+
