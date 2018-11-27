@@ -20,7 +20,6 @@ int main(){
     } else if(a==2){
         sudoku4 juego;
         juego.get_numero();
-        }
-
-    return 0;
+    } else
+        return 0;
 }
